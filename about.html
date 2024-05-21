@@ -4,12 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+<style>
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+    background-color: #e5dfdf;
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+    background-color: #e5dfdf;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+    width: 300px;
+    border-radius: 75%;
+}
+</style>
 </head>
-<body>
-    <h1>About Us</h1>
+<div class="split right">
+    <div class="centered">
+        <img src="images/IMG-20240521-WA0028-modified.png" >
+        <h2>Anmol Singh</h2>
+        <p>Build your Own!</p>
+    </div>
+</div>
+<div class="split left">
+    <div class="centered">
+
+        <h1>About Us</h1>
     <p>Welcome to our website! Here is some information about us.</p>
     <p>Creator: Anmol Singh.</p>
     <p>Contact us at: annmolsingh7636@gmail.com</p>
     <a href="/">Back to Home</a>
+    </div>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<body>
+    
 </body>
 </html>
