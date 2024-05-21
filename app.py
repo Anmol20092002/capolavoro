@@ -9,7 +9,7 @@ def serve_index():
 @app.route('/about')
 def serve_about():
     return send_from_directory('', 'about.html')
-@app.route('/How to HTML')
+@app.route('/contact')
 def serve_contact():
     return send_from_directory('', 'contact.html')
 if __name__ == '__main__':
